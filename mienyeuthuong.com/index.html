@@ -60,7 +60,7 @@
   </style>
   <script defer>
     async function getQuote() {
-      let quoteUrl = 'https://raw.githubusercontent.com/tuyendq/mindbook/mienyeuthuong/quotes.json';
+      let quoteUrl = 'https://raw.githubusercontent.com/mienyeuthuong/quotes/refs/heads/main/quotes.json';
       const response = fetch(quoteUrl)
         .then(res => (res.json()))
         .catch(error => console.error('Error:', error));
